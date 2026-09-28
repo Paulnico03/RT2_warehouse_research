@@ -1,0 +1,87 @@
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 23
+Aibr Preprocessing
+UFX:false
+|F|:34
+|X|:5
+Heuristic Problem Creation
+Aibr Preprocessing
+|A|:51
+|P|:4
+|E|:3
+Delta time heuristic model:1.0
+Delta time planning model:1.0
+Delta time search-execution model:1.0
+Delta time validation model:1
+Numeric Error for Complex Condition Activated
+H1 Setup Time (msec): 12
+h(I):5.0
+f(n) = 5.0 (Expanded Nodes: 1, Evaluated States: 1, Time: 0.009) Frontier Size: 0
+f(n) = 6.0 (Expanded Nodes: 2, Evaluated States: 4, Time: 0.023) Frontier Size: 2
+f(n) = 7.0 (Expanded Nodes: 3, Evaluated States: 7, Time: 0.025) Frontier Size: 4
+f(n) = 8.0 (Expanded Nodes: 4, Evaluated States: 10, Time: 0.027) Frontier Size: 6
+f(n) = 9.0 (Expanded Nodes: 5, Evaluated States: 13, Time: 0.028) Frontier Size: 8
+f(n) = 10.0 (Expanded Nodes: 6, Evaluated States: 16, Time: 0.029) Frontier Size: 10
+f(n) = 11.0 (Expanded Nodes: 11, Evaluated States: 28, Time: 0.032) Frontier Size: 17
+f(n) = 12.0 (Expanded Nodes: 23, Evaluated States: 51, Time: 0.037) Frontier Size: 28
+f(n) = 13.0 (Expanded Nodes: 40, Evaluated States: 81, Time: 0.044) Frontier Size: 41
+f(n) = 14.0 (Expanded Nodes: 68, Evaluated States: 130, Time: 0.052) Frontier Size: 62
+f(n) = 15.0 (Expanded Nodes: 112, Evaluated States: 206, Time: 0.066) Frontier Size: 94
+f(n) = 16.0 (Expanded Nodes: 171, Evaluated States: 307, Time: 0.084) Frontier Size: 136
+f(n) = 17.0 (Expanded Nodes: 241, Evaluated States: 431, Time: 0.096) Frontier Size: 190
+f(n) = 18.0 (Expanded Nodes: 317, Evaluated States: 571, Time: 0.106) Frontier Size: 254
+f(n) = 19.0 (Expanded Nodes: 409, Evaluated States: 743, Time: 0.121) Frontier Size: 334
+f(n) = 20.0 (Expanded Nodes: 528, Evaluated States: 951, Time: 0.135) Frontier Size: 423
+f(n) = 21.0 (Expanded Nodes: 708, Evaluated States: 1270, Time: 0.161) Frontier Size: 562
+f(n) = 22.0 (Expanded Nodes: 948, Evaluated States: 1671, Time: 0.2) Frontier Size: 723
+f(n) = 23.0 (Expanded Nodes: 1235, Evaluated States: 2118, Time: 0.236) Frontier Size: 883
+f(n) = 24.0 (Expanded Nodes: 1611, Evaluated States: 2679, Time: 0.271) Frontier Size: 1068
+f(n) = 25.0 (Expanded Nodes: 2155, Evaluated States: 3474, Time: 0.303) Frontier Size: 1319
+f(n) = 26.0 (Expanded Nodes: 2933, Evaluated States: 4577, Time: 0.347) Frontier Size: 1644
+f(n) = 27.0 (Expanded Nodes: 3934, Evaluated States: 5956, Time: 0.422) Frontier Size: 2022
+f(n) = 28.0 (Expanded Nodes: 5059, Evaluated States: 7469, Time: 0.463) Frontier Size: 2410
+f(n) = 29.0 (Expanded Nodes: 6206, Evaluated States: 8876, Time: 0.513) Frontier Size: 2670
+f(n) = 30.0 (Expanded Nodes: 7297, Evaluated States: 10105, Time: 0.554) Frontier Size: 2808
+f(n) = 31.0 (Expanded Nodes: 8426, Evaluated States: 11284, Time: 0.581) Frontier Size: 2858
+f(n) = 32.0 (Expanded Nodes: 9589, Evaluated States: 12402, Time: 0.611) Frontier Size: 2813
+Extracting plan with execution delta: 1.0
+Problem Solved
+
+Found Plan:
+0: (start-move robby dock aisle-A)
+0: -----waiting---- [2.0]
+2.0: (end-move robby dock aisle-A)
+2.0: (pick robby pkg1 aisle-A)
+2.0: (start-move robby aisle-A shipping)
+2.0: -----waiting---- [4.0]
+4.0: (end-move robby aisle-A shipping)
+4.0: (deliver-package robby pkg1 shipping)
+4.0: (start-move robby shipping aisle-B)
+4.0: -----waiting---- [7.0]
+7.0: (end-move robby shipping aisle-B)
+7.0: (pick robby pkg2 aisle-B)
+7.0: (start-move robby aisle-B shipping)
+7.0: -----waiting---- [10.0]
+10.0: (end-move robby aisle-B shipping)
+10.0: (deliver-package robby pkg2 shipping)
+10.0: (start-move robby shipping aisle-A)
+10.0: -----waiting---- [12.0]
+12.0: (end-move robby shipping aisle-A)
+12.0: (pick robby pkg3 aisle-A)
+12.0: (start-move robby aisle-A shipping)
+12.0: -----waiting---- [14.0]
+14.0: (end-move robby aisle-A shipping)
+14.0: (deliver-package robby pkg3 shipping)
+
+Plan-Length:32
+Elapsed Time: 14.0
+Metric (Search):32.0
+Planning Time (msec): 619
+Heuristic Time (msec): 457
+Search Time (msec): 615
+Expanded Nodes:9653
+States Evaluated:12584
+Number of Dead-Ends detected:3225
+Number of Duplicates detected:4433

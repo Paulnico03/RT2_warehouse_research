@@ -1,0 +1,42 @@
+# IDE and system files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Compiled outputs (optional — you might want to include binaries)
+*.class
+*.jar
+
+# Keep everything else
+!*.pddl
+!*.txt
+!*.pdf
+!*.md__pycache__/
+*.py[cod]
+.venv/
+
+# ROS2 colcon generated directories
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+.ipynb_checkpoints/
+
+# LaTeX temporary files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+paper/main.txt
+
+# LaTeX temporary files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+paper/main.txt
+paper/main_before_*.tex

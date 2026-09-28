@@ -1,0 +1,85 @@
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 18
+Aibr Preprocessing
+UFX:false
+|F|:34
+|X|:5
+Heuristic Problem Creation
+Aibr Preprocessing
+|A|:51
+|P|:4
+|E|:3
+Delta time heuristic model:1.0
+Delta time planning model:1.0
+Delta time search-execution model:1.0
+Delta time validation model:1
+Numeric Error for Complex Condition Activated
+H1 Setup Time (msec): 11
+h(I):5.0
+f(n) = 5.0 (Expanded Nodes: 1, Evaluated States: 1, Time: 0.012) Frontier Size: 0
+f(n) = 6.0 (Expanded Nodes: 2, Evaluated States: 4, Time: 0.024) Frontier Size: 2
+f(n) = 7.0 (Expanded Nodes: 3, Evaluated States: 7, Time: 0.026) Frontier Size: 4
+f(n) = 8.0 (Expanded Nodes: 8, Evaluated States: 20, Time: 0.029) Frontier Size: 12
+f(n) = 9.0 (Expanded Nodes: 16, Evaluated States: 37, Time: 0.032) Frontier Size: 21
+f(n) = 10.0 (Expanded Nodes: 24, Evaluated States: 54, Time: 0.038) Frontier Size: 30
+f(n) = 11.0 (Expanded Nodes: 32, Evaluated States: 71, Time: 0.043) Frontier Size: 39
+f(n) = 12.0 (Expanded Nodes: 45, Evaluated States: 96, Time: 0.047) Frontier Size: 51
+f(n) = 13.0 (Expanded Nodes: 62, Evaluated States: 126, Time: 0.05) Frontier Size: 64
+f(n) = 14.0 (Expanded Nodes: 94, Evaluated States: 184, Time: 0.055) Frontier Size: 90
+f(n) = 15.0 (Expanded Nodes: 148, Evaluated States: 281, Time: 0.073) Frontier Size: 133
+f(n) = 16.0 (Expanded Nodes: 218, Evaluated States: 402, Time: 0.086) Frontier Size: 184
+f(n) = 17.0 (Expanded Nodes: 312, Evaluated States: 554, Time: 0.1) Frontier Size: 242
+f(n) = 18.0 (Expanded Nodes: 421, Evaluated States: 738, Time: 0.116) Frontier Size: 317
+f(n) = 19.0 (Expanded Nodes: 586, Evaluated States: 1044, Time: 0.133) Frontier Size: 458
+f(n) = 20.0 (Expanded Nodes: 805, Evaluated States: 1442, Time: 0.15) Frontier Size: 637
+f(n) = 21.0 (Expanded Nodes: 1091, Evaluated States: 1958, Time: 0.173) Frontier Size: 867
+f(n) = 22.0 (Expanded Nodes: 1458, Evaluated States: 2593, Time: 0.211) Frontier Size: 1135
+f(n) = 23.0 (Expanded Nodes: 1875, Evaluated States: 3257, Time: 0.23) Frontier Size: 1382
+f(n) = 24.0 (Expanded Nodes: 2391, Evaluated States: 4013, Time: 0.263) Frontier Size: 1622
+f(n) = 25.0 (Expanded Nodes: 3078, Evaluated States: 5028, Time: 0.32) Frontier Size: 1950
+f(n) = 26.0 (Expanded Nodes: 4024, Evaluated States: 6437, Time: 0.378) Frontier Size: 2413
+f(n) = 27.0 (Expanded Nodes: 5291, Evaluated States: 8316, Time: 0.43) Frontier Size: 3025
+f(n) = 28.0 (Expanded Nodes: 6915, Evaluated States: 10655, Time: 0.49) Frontier Size: 3740
+f(n) = 29.0 (Expanded Nodes: 8863, Evaluated States: 13419, Time: 0.602) Frontier Size: 4556
+f(n) = 30.0 (Expanded Nodes: 10954, Evaluated States: 16260, Time: 0.665) Frontier Size: 5306
+Extracting plan with execution delta: 1.0
+Problem Solved
+
+Found Plan:
+0: (start-move robby dock aisle-A)
+0: -----waiting---- [2.0]
+2.0: (end-move robby dock aisle-A)
+2.0: (pick robby pkg2 aisle-A)
+2.0: (start-move robby aisle-A shipping)
+2.0: -----waiting---- [4.0]
+4.0: (end-move robby aisle-A shipping)
+4.0: (deliver-package robby pkg2 shipping)
+4.0: (start-move robby shipping aisle-A)
+4.0: -----waiting---- [6.0]
+6.0: (end-move robby shipping aisle-A)
+6.0: (pick robby pkg3 aisle-A)
+6.0: (start-move robby aisle-A shipping)
+6.0: -----waiting---- [8.0]
+8.0: (end-move robby aisle-A shipping)
+8.0: (deliver-package robby pkg3 shipping)
+8.0: (start-move robby shipping aisle-A)
+8.0: -----waiting---- [10.0]
+10.0: (end-move robby shipping aisle-A)
+10.0: (pick robby pkg1 aisle-A)
+10.0: (start-move robby aisle-A shipping)
+10.0: -----waiting---- [12.0]
+12.0: (end-move robby aisle-A shipping)
+12.0: (deliver-package robby pkg1 shipping)
+
+Plan-Length:30
+Elapsed Time: 12.0
+Metric (Search):30.0
+Planning Time (msec): 674
+Heuristic Time (msec): 501
+Search Time (msec): 671
+Expanded Nodes:11083
+States Evaluated:16608
+Number of Dead-Ends detected:2699
+Number of Duplicates detected:6449

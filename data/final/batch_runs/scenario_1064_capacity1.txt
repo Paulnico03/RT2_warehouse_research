@@ -1,0 +1,69 @@
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 16
+Aibr Preprocessing
+UFX:false
+|F|:27
+|X|:4
+Heuristic Problem Creation
+Aibr Preprocessing
+|A|:42
+|P|:3
+|E|:2
+Delta time heuristic model:1.0
+Delta time planning model:1.0
+Delta time search-execution model:1.0
+Delta time validation model:1
+Numeric Error for Complex Condition Activated
+H1 Setup Time (msec): 10
+h(I):5.0
+f(n) = 5.0 (Expanded Nodes: 1, Evaluated States: 1, Time: 0.005) Frontier Size: 0
+f(n) = 6.0 (Expanded Nodes: 2, Evaluated States: 4, Time: 0.015) Frontier Size: 2
+f(n) = 7.0 (Expanded Nodes: 3, Evaluated States: 7, Time: 0.017) Frontier Size: 4
+f(n) = 8.0 (Expanded Nodes: 4, Evaluated States: 10, Time: 0.018) Frontier Size: 6
+f(n) = 9.0 (Expanded Nodes: 5, Evaluated States: 13, Time: 0.019) Frontier Size: 8
+f(n) = 10.0 (Expanded Nodes: 6, Evaluated States: 16, Time: 0.02) Frontier Size: 10
+f(n) = 11.0 (Expanded Nodes: 11, Evaluated States: 27, Time: 0.022) Frontier Size: 16
+f(n) = 12.0 (Expanded Nodes: 22, Evaluated States: 47, Time: 0.025) Frontier Size: 25
+f(n) = 13.0 (Expanded Nodes: 38, Evaluated States: 74, Time: 0.028) Frontier Size: 36
+f(n) = 14.0 (Expanded Nodes: 61, Evaluated States: 111, Time: 0.032) Frontier Size: 50
+f(n) = 15.0 (Expanded Nodes: 94, Evaluated States: 163, Time: 0.039) Frontier Size: 69
+f(n) = 16.0 (Expanded Nodes: 139, Evaluated States: 233, Time: 0.048) Frontier Size: 94
+f(n) = 17.0 (Expanded Nodes: 192, Evaluated States: 319, Time: 0.058) Frontier Size: 127
+f(n) = 18.0 (Expanded Nodes: 259, Evaluated States: 430, Time: 0.066) Frontier Size: 171
+f(n) = 19.0 (Expanded Nodes: 346, Evaluated States: 569, Time: 0.077) Frontier Size: 223
+f(n) = 20.0 (Expanded Nodes: 467, Evaluated States: 761, Time: 0.091) Frontier Size: 294
+f(n) = 21.0 (Expanded Nodes: 624, Evaluated States: 1003, Time: 0.105) Frontier Size: 379
+f(n) = 22.0 (Expanded Nodes: 789, Evaluated States: 1240, Time: 0.112) Frontier Size: 451
+Extracting plan with execution delta: 1.0
+Problem Solved
+
+Found Plan:
+0: (start-move robby dock aisle-B)
+0: -----waiting---- [3.0]
+3.0: (end-move robby dock aisle-B)
+3.0: (pick robby pkg2 aisle-B)
+3.0: (start-move robby aisle-B shipping)
+3.0: -----waiting---- [6.0]
+6.0: (end-move robby aisle-B shipping)
+6.0: (deliver-package robby pkg2 shipping)
+6.0: (start-move robby shipping aisle-A)
+6.0: -----waiting---- [8.0]
+8.0: (end-move robby shipping aisle-A)
+8.0: (pick robby pkg1 aisle-A)
+8.0: (start-move robby aisle-A shipping)
+8.0: -----waiting---- [10.0]
+10.0: (end-move robby aisle-A shipping)
+10.0: (deliver-package robby pkg1 shipping)
+
+Plan-Length:22
+Elapsed Time: 10.0
+Metric (Search):22.0
+Planning Time (msec): 118
+Heuristic Time (msec): 69
+Search Time (msec): 115
+Expanded Nodes:818
+States Evaluated:1314
+Number of Dead-Ends detected:95
+Number of Duplicates detected:489

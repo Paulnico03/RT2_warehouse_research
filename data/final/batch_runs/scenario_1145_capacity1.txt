@@ -1,0 +1,61 @@
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 22
+Aibr Preprocessing
+UFX:false
+|F|:34
+|X|:5
+Heuristic Problem Creation
+Aibr Preprocessing
+|A|:51
+|P|:4
+|E|:3
+Delta time heuristic model:1.0
+Delta time planning model:1.0
+Delta time search-execution model:1.0
+Delta time validation model:1
+Numeric Error for Complex Condition Activated
+H1 Setup Time (msec): 15
+h(I):5.0
+f(n) = 5.0 (Expanded Nodes: 1, Evaluated States: 1, Time: 0.009) Frontier Size: 0
+f(n) = 6.0 (Expanded Nodes: 2, Evaluated States: 4, Time: 0.023) Frontier Size: 2
+f(n) = 7.0 (Expanded Nodes: 3, Evaluated States: 7, Time: 0.024) Frontier Size: 4
+f(n) = 8.0 (Expanded Nodes: 4, Evaluated States: 10, Time: 0.026) Frontier Size: 6
+f(n) = 9.0 (Expanded Nodes: 5, Evaluated States: 13, Time: 0.027) Frontier Size: 8
+f(n) = 10.0 (Expanded Nodes: 6, Evaluated States: 16, Time: 0.028) Frontier Size: 10
+f(n) = 11.0 (Expanded Nodes: 11, Evaluated States: 27, Time: 0.03) Frontier Size: 16
+f(n) = 12.0 (Expanded Nodes: 22, Evaluated States: 48, Time: 0.036) Frontier Size: 26
+f(n) = 13.0 (Expanded Nodes: 39, Evaluated States: 78, Time: 0.042) Frontier Size: 39
+f(n) = 14.0 (Expanded Nodes: 63, Evaluated States: 118, Time: 0.049) Frontier Size: 55
+f(n) = 15.0 (Expanded Nodes: 97, Evaluated States: 173, Time: 0.058) Frontier Size: 76
+f(n) = 16.0 (Expanded Nodes: 148, Evaluated States: 256, Time: 0.072) Frontier Size: 108
+f(n) = 17.0 (Expanded Nodes: 214, Evaluated States: 368, Time: 0.09) Frontier Size: 154
+f(n) = 18.0 (Expanded Nodes: 297, Evaluated States: 511, Time: 0.099) Frontier Size: 214
+f(n) = 19.0 (Expanded Nodes: 395, Evaluated States: 679, Time: 0.108) Frontier Size: 284
+f(n) = 20.0 (Expanded Nodes: 526, Evaluated States: 902, Time: 0.122) Frontier Size: 376
+f(n) = 21.0 (Expanded Nodes: 677, Evaluated States: 1145, Time: 0.134) Frontier Size: 468
+f(n) = 22.0 (Expanded Nodes: 835, Evaluated States: 1378, Time: 0.146) Frontier Size: 543
+f(n) = 23.0 (Expanded Nodes: 1022, Evaluated States: 1626, Time: 0.16) Frontier Size: 604
+f(n) = 24.0 (Expanded Nodes: 1261, Evaluated States: 1932, Time: 0.177) Frontier Size: 671
+f(n) = 25.0 (Expanded Nodes: 1587, Evaluated States: 2309, Time: 0.217) Frontier Size: 722
+f(n) = 26.0 (Expanded Nodes: 1994, Evaluated States: 2756, Time: 0.236) Frontier Size: 762
+f(n) = 27.0 (Expanded Nodes: 2465, Evaluated States: 3242, Time: 0.263) Frontier Size: 777
+f(n) = 28.0 (Expanded Nodes: 2925, Evaluated States: 3661, Time: 0.28) Frontier Size: 736
+f(n) = 29.0 (Expanded Nodes: 3284, Evaluated States: 3919, Time: 0.315) Frontier Size: 635
+f(n) = 30.0 (Expanded Nodes: 3518, Evaluated States: 4047, Time: 0.331) Frontier Size: 529
+f(n) = 31.0 (Expanded Nodes: 3676, Evaluated States: 4100, Time: 0.342) Frontier Size: 424
+f(n) = 32.0 (Expanded Nodes: 3836, Evaluated States: 4124, Time: 0.347) Frontier Size: 288
+f(n) = 33.0 (Expanded Nodes: 3970, Evaluated States: 4141, Time: 0.352) Frontier Size: 171
+f(n) = 34.0 (Expanded Nodes: 4084, Evaluated States: 4161, Time: 0.355) Frontier Size: 77
+f(n) = 35.0 (Expanded Nodes: 4141, Evaluated States: 4166, Time: 0.356) Frontier Size: 25
+f(n) = 36.0 (Expanded Nodes: 4163, Evaluated States: 4170, Time: 0.357) Frontier Size: 7
+Problem unsolvable
+Metric (Search):-1.0
+Planning Time (msec): 360
+Heuristic Time (msec): 232
+Search Time (msec): 0
+Expanded Nodes:4170
+States Evaluated:4170
+Number of Dead-Ends detected:1887
+Number of Duplicates detected:1281

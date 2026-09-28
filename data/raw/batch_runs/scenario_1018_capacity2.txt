@@ -1,0 +1,53 @@
+Domain parsed
+Problem parsed
+Grounding..
+Grounding Time: 15
+Aibr Preprocessing
+UFX:false
+|F|:27
+|X|:4
+Heuristic Problem Creation
+Aibr Preprocessing
+|A|:42
+|P|:3
+|E|:2
+Delta time heuristic model:1.0
+Delta time planning model:1.0
+Delta time search-execution model:1.0
+Delta time validation model:1
+Numeric Error for Complex Condition Activated
+H1 Setup Time (msec): 8
+h(I):5.0
+f(n) = 5.0 (Expanded Nodes: 1, Evaluated States: 1, Time: 0.006) Frontier Size: 0
+f(n) = 6.0 (Expanded Nodes: 2, Evaluated States: 4, Time: 0.016) Frontier Size: 2
+f(n) = 7.0 (Expanded Nodes: 3, Evaluated States: 7, Time: 0.017) Frontier Size: 4
+f(n) = 8.0 (Expanded Nodes: 8, Evaluated States: 19, Time: 0.021) Frontier Size: 11
+f(n) = 9.0 (Expanded Nodes: 15, Evaluated States: 34, Time: 0.026) Frontier Size: 19
+f(n) = 10.0 (Expanded Nodes: 23, Evaluated States: 51, Time: 0.028) Frontier Size: 28
+f(n) = 11.0 (Expanded Nodes: 31, Evaluated States: 68, Time: 0.03) Frontier Size: 37
+f(n) = 12.0 (Expanded Nodes: 48, Evaluated States: 104, Time: 0.034) Frontier Size: 56
+Extracting plan with execution delta: 1.0
+Problem Solved
+
+Found Plan:
+0: (start-move robby dock aisle-A)
+0: -----waiting---- [2.0]
+2.0: (end-move robby dock aisle-A)
+2.0: (pick robby pkg2 aisle-A)
+2.0: (pick robby pkg1 aisle-A)
+2.0: (start-move robby aisle-A shipping)
+2.0: -----waiting---- [4.0]
+4.0: (end-move robby aisle-A shipping)
+4.0: (deliver-package robby pkg1 shipping)
+4.0: (deliver-package robby pkg2 shipping)
+
+Plan-Length:12
+Elapsed Time: 4.0
+Metric (Search):12.0
+Planning Time (msec): 39
+Heuristic Time (msec): 16
+Search Time (msec): 36
+Expanded Nodes:50
+States Evaluated:117
+Number of Dead-Ends detected:0
+Number of Duplicates detected:37
